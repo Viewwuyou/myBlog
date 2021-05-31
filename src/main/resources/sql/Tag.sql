@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS Tag;
+
+CREATE TABLE tag (
+    tag_id INT PRIMARY KEY AUTO_INCREMENT ,
+    tag_context VARCHAR(255) NOT NULL
+);
